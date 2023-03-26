@@ -4,7 +4,7 @@
 ## 1. Menjalankan MySQL Server
 Untuk menjalankan MySQL Server dari menu XAMPP Control.
 
-![img1!](lab8_php_database/img/menjalankan xampp.png)
+![img1!](lab8_php_database/img/ss1.png)
 
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL : http://localhost/phpmyadmin/
@@ -12,31 +12,31 @@ Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian untuk meng
 ## 2. Membuat Database: Studi Kasus Data Barang
 
 ### Membuat database
-![img2!](lab8_php_database/img/membuat data.png)
+![img2!](lab8_php_database/img/ss2.png)
 
 ### Menambahkan Data
-![img3!](lab8_php_database/img/membuat data 2.png)
+![img3!](lab8_php_database/img/ss3.png)
 
-![img4!](lab8_php_database/img/membuat data 3.png)
+![img4!](lab8_php_database/img/ss4.png)
 
 ## 3. Membuat Program CRUD
 Buat folder lab8_php_database pada root directory web server (/Application/xampp/htdocs)
 
-![img4!](lab8_php_database/img/membuat program crud.png)
+![img4!](lab8_php_database/img/ss5.png)
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab8_php_database/
 
-![img5!](lab8_php_database/img/membuat program crud 2.png)
+![img5!](lab8_php_database/img/ss6.png)
 
 ## Membuat file koneksi database
 Buat file baru dengan nama koneksi.php
 
-![img6!](lab8_php_database/img/membuat file koneksi database.png)
+![img6!](lab8_php_database/img/ss7.png)
 
 Buka melalui browser untuk menguji koneksi database (untuk menyampilkan pesan koneksi berhasil, uncomment pada perintah echo “koneksi berhasil”;
 
-![img7!](lab8_php_database/img/koneksi berhasil.png)
+![img7!](lab8_php_database/img/ss8.png)
 
 ## Membuat file index untuk menampilkan data (Read)
 Buat file baru dengan nama index.php
@@ -98,7 +98,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![img8!](lab8_php_database/img/membuat file index.png)
+![img8!](lab8_php_database/img/ss9.png)
 
 ## Menambah Data (Create)
 Buat file baru dengan nama tambah.php
@@ -185,7 +185,7 @@ if (isset($_POST['submit']))
 </body>
 </html>
 ```
-![img9!](lab8_php_database/img/menambahkan data create.png)
+![img9!](lab8_php_database/img/ss10.png)
 
 ## Mengubah Data (Update)
 Buat file baru dengan nama ubah.php
@@ -291,13 +291,13 @@ if (isset($_POST['submit']))
 </html>
 ```
 Sebelum diubah
-![img10!](lab8_php_database/img/sebelum diubah.png)
+![img10!](lab8_php_database/img/ss11.png)
 
 Proses ubah
-![img11!](lab8_php_database/img/proses ubah.png)
+![img11!](lab8_php_database/img/ss12.png)
 
 Setelah diubah
-![img12!](lab8_php_database/img/setelah diubah.png)
+![img12!](lab8_php_database/img/ss13.png)
 
 ## Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php
@@ -314,7 +314,7 @@ header('location: index.php');
 ```
 
 Sebelum dihapus
-![img13!](lab8_php_database/img/sebelum diubah.png)
+![img13!](lab8_php_database/img/ss14.png)
 
 Setelah dihapus
-![img14!](lab8_php_database/img/setelah diubah.png)
+![img14!](lab8_php_database/img/ss15.png)
